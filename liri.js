@@ -104,15 +104,21 @@ function movieSearch(){
     function(response) {
         console.log(response);
     //   * Title of the movie.
+    console.log("Movie Title: " + response.data.Title);
     //   * Year the movie came out.
-    console.log("The movie was released in: " + response.data.Year);
+    console.log("Released in: " + response.data.Year);
     //   * IMDB Rating of the movie.
-    console.log("The movie's rating is: " + response.data.imdbRating);
+    console.log("IMDB Rating: " + response.data.imdbRating);
     //   * Rotten Tomatoes Rating of the movie.
+    console.log("Rotten Tomatoes Rating:" + response.data.Ratings)
     //   * Country where the movie was produced.
+    console.log("The movie was produced in: " + response.data.Country);
     //   * Language of the movie.
+    console.log("The movie is in: " + response.data.Language);
     //   * Plot of the movie.
+    console.log("Plot Summary: " + response.data.Plot);
     //   * Actors in the movie.
+    console.log("Actors: " + response.data.Actors);
     }
     ).catch(function(err) {
         console.log(err);
