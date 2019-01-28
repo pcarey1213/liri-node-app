@@ -102,7 +102,6 @@ function movieSearch(){
 
     axios.get(queryUrl).then(
     function(response) {
-        console.log(response);
     //   * Title of the movie.
     console.log("Movie Title: " + response.data.Title);
     //   * Year the movie came out.
@@ -110,7 +109,7 @@ function movieSearch(){
     //   * IMDB Rating of the movie.
     console.log("IMDB Rating: " + response.data.imdbRating);
     //   * Rotten Tomatoes Rating of the movie.
-    console.log("Rotten Tomatoes Rating:" + response.data.Ratings)
+    console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
     //   * Country where the movie was produced.
     console.log("The movie was produced in: " + response.data.Country);
     //   * Language of the movie.
