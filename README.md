@@ -55,7 +55,7 @@ exports.spotify = {
 
      * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-Check it out! ("https://github.com/pcarey1213/liri-node-app/assets/images.step-1.png")
+Check it out! ("https://github.com/pcarey1213/liri-node-app/blob/master/assets/images/step-1.png")
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -71,7 +71,7 @@ Check it out! ("https://github.com/pcarey1213/liri-node-app/assets/images.step-1
 
    * If no song is provided then Liri will default to "The Sign" by Ace of Base.
 
-Check it out again! ("https://github.com/pcarey1213/liri-node-app/assets/images.step-2.png")
+Check it out again! ("https://github.com/pcarey1213/liri-node-app/blob/master/assets/images/step-2.png")
 
 3. `node liri.js movie-this '<movie name here>'`
 
@@ -90,7 +90,7 @@ Check it out again! ("https://github.com/pcarey1213/liri-node-app/assets/images.
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-Behold! ("https://github.com/pcarey1213/liri-node-app/assets/images.step-3.png")
+Behold! ("https://github.com/pcarey1213/liri-node-app/blob/master/assets/images/step-3.png")
 
 4. `node liri.js do-what-it-says`
 
@@ -102,7 +102,7 @@ Behold! ("https://github.com/pcarey1213/liri-node-app/assets/images.step-3.png")
      
    * If the user doesn't type any command, the program will run a command from random.txt.
 
-At last! ("https://github.com/pcarey1213/liri-node-app/assets/images.step-4.png")
+At last! ("https://github.com/pcarey1213/liri-node-app/blob/master/assets/images/step-4.png")
 
 **Thanks for using LIRI!**
 
